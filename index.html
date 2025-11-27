@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <form id="survey-form">
+
+    <!-- Nombre -->
+    <label for="name" id="name-label">Nombre</label>
+    <input 
+      required 
+      id="name" 
+      type="text" 
+      placeholder="Alejandro"
+    ><br>
+
+    <!-- Email -->
+    <label for="email" id="email-label">Email</label>
+    <input 
+      required 
+      id="email" 
+      type="email" 
+      placeholder="ale@mail.com"
+    ><br>
+
+    <!-- Número -->
+    <label for="number" id="number-label">Número</label>
+    <input 
+      id="number"
+      type="number"
+      min="3"
+      max="999999"
+      required
+      placeholder="123456"
+    >
+
+    <!-- Dropdown -->
+    <select id="dropdown">
+      <option value="argentina">+54</option>
+      <option value="usa">+1</option>
+    </select>
+
+    <!-- Radio buttons -->
+    <p>Tipo</p>
+    <label>
+      <input type="radio" name="tipo" value="residente"> Residente
+    </label>
+    <label>
+      <input type="radio" name="tipo" value="extranjero"> Extranjero
+    </label>
+
+    <hr>
+
+    <!-- Checkboxes -->
+    <p>Reseña</p>
+    <label>
+      <input type="checkbox" name="reseña" value="volverias"> Volvería
+    </label>
+    <label>
+      <input type="checkbox" name="reseña" value="no-volverias"> No volvería
+    </label>
+
+    <br>
+
+    <!-- Comentarios -->
+    <label for="comentarios">Comentarios</label><br>
+    <textarea id="comentarios" placeholder="Escribe aquí..."></textarea><br>
+
+    <!-- Submit -->
+    <button id="submit" type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
+
