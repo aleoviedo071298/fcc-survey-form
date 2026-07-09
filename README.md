@@ -1,33 +1,36 @@
-# FreeCodeCamp – Survey Form Project
+# FreeCodeCamp — Survey Form
 
-My first Certification Project for freeCodeCamp's Responsive Web Design course: a
-fully responsive survey form built to all official freeCodeCamp user stories.
+> Responsive survey form built for the freeCodeCamp Responsive Web Design certification.
 
-## Description
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- Semantic and accessible HTML structure.
+## About
+
+First certification project for freeCodeCamp's **Responsive Web Design** course. Implements all required user stories: semantic structure, accessible form controls, and a fully responsive layout that adapts to any screen size.
+
+## Features
+
+- Semantic and accessible HTML5 structure.
 - Required form controls: text inputs, email, number, radio buttons, checkboxes, dropdown.
-- Responsive layout that adapts to different screen sizes.
-- Passes all freeCodeCamp test requirements.
+- Responsive layout — adapts to mobile, tablet, and desktop.
+- Passes all freeCodeCamp automated tests.
+
+## Project Structure
+
+```
+fcc-survey-form/
+└── index.html    Survey form — structure + inline styles
+```
 
 ## Live Demo
 
 [aleoviedo071298.github.io/fcc-survey-form](https://aleoviedo071298.github.io/fcc-survey-form/)
 
-## Project Files
+## Setup
 
-- `index.html` — main structure of the survey form.
+Open `index.html` directly in any browser — no dependencies.
 
-## Tech Stack
+---
 
-- HTML5
-- GitHub Pages (deployment)
-
-## Status
-
-100% functional, passes all freeCodeCamp automated tests.
-
-## Author
-
-**Alejandro Oviedo**
-Comodoro Rivadavia, Argentina
+**Alejandro Oviedo** · [LinkedIn](https://www.linkedin.com/in/aleoviedo071298/) · [GitHub](https://github.com/aleoviedo071298)
